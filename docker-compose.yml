@@ -4,8 +4,6 @@ services:
   
     build: .
     image: ahmedelmahdi133/dockerbasicnode
-    volumes:
-      - ./src:/app/src:ro
     container_name: node-app
     ports:
       - "3000:3000"
