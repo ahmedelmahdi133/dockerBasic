@@ -67,7 +67,7 @@ await postgres_client.end()
 
 app.get('/', (req, res) => {
   client.set('key', 'Hello Redis!');
-  res.send('Hello World! from docer hub');
+  res.send('Hello World! from docer hub 2');
 });
 app.get("/ahmed", (req, res) => {
   res.send("Hello Ahmed!");
